@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 html{
 	font-size: 62.5%;
 }
@@ -16,8 +20,14 @@ a{
 	padding: 0 15px;
 }
 
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
 header{
-	background-color: #7D98A1;
+	background-color: #048BA8;
 	text-align: center;
 }
 
@@ -50,6 +60,10 @@ nav ul li a{
 	font-size: 1.6rem;
 }
 
+#main-content{
+	background-color: #FFFAE3;
+}
+
 #gallery{
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -60,4 +74,16 @@ nav ul li a{
 	height: 320px;
 	object-fit: cover;
 	object-position: bottom;
+}
+
+#gallery .item{
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+
+footer.main{
+	background-color: #048BA8;
+	text-align: center;
+	padding: 20px;
 }

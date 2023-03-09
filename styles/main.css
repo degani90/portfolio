@@ -1,9 +1,40 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
 header{
-	background-color: #A9B4C2;
+	background-color: #7D98A1;
 	text-align: center;
-	padding: 8px;
 }
 
 header img{
 	width:96px;
+}
+
+.logo-container{
+	padding: 12px;
+}
+
+nav{
+	background-color: #2A2B2E;	
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 8px 12px;
+	list-style-type: none;
+}
+
+nav ul li a{
+	color: #FFFAE3;
+	text-transform: uppercase;	
 }

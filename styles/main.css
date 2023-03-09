@@ -1,9 +1,19 @@
+html{
+	font-size: 62.5%;
+}
+
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
 	text-decoration: none;
+}
+
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 header{
@@ -36,5 +46,18 @@ nav ul li{
 
 nav ul li a{
 	color: #FFFAE3;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	font-size: 1.6rem;
+}
+
+#gallery{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#gallery img{
+	width: 100%;
+	height: 320px;
+	object-fit: cover;
+	object-position: bottom;
 }

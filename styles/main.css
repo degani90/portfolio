@@ -62,6 +62,8 @@ nav ul li{
 	display: inline-block;
 	padding: 8px 12px;
 	list-style-type: none;
+	margin-left: -1px;
+	margin-right: -2px;
 }
 
 nav ul li a{
@@ -101,15 +103,43 @@ nav ul li a{
 	padding: 25px;
 }
 
-#about .description p{
+#about .description p, h1{
 	margin: 0;
-	padding: 15px;
+	padding: 12;
 }
 
-#about .description h1{
+#contacts .info p,h1{
 	margin: 0;
-	padding: 15px;
+	padding: 12px;
+	text-align: justify;
 }
+
+#contacts .contact h1{
+	margin: 0;
+	padding: 12px;
+}
+
+#contacts ul{
+	list-style-type: none;
+	padding: 12px;
+	margin: 0;
+}
+
+#contacts ul li{
+	margin: auto;
+	padding-bottom: 6px;
+}
+
+/* #contacts .material-symbols-outlined{
+	float:left;
+} */
+
+/* #contacts .contact p{
+	margin: 0;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+} */
 
 footer.main{
 	background-color: #FFFAE3;
@@ -157,6 +187,18 @@ footer.main{
 		padding: 15px;
 	}
 
+	#contacts .info{
+		float: left;
+		width: 75%;
+		padding: 15px;
+	}
+
+	#contacts .contact{
+		float: right;
+		width: 25%;
+		padding: 15px;
+	}
+
 	nav ul li{
 		transition: background .2s;
 	}
@@ -176,4 +218,13 @@ footer.main{
 	#gallery .item{
 		width: 20%;
 	}
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 20;
+  font-size: 12px;
 }

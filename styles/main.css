@@ -30,7 +30,9 @@ a{
 	background-color: #048BA8;
 }
 
-
+img{
+	width: 100%;
+}
 
 
 
@@ -94,8 +96,23 @@ nav ul li a{
 	line-height: 0;
 }
 
+#about img{
+	border-radius: 100%;
+	padding: 25px;
+}
+
+#about .description p{
+	margin: 0;
+	padding: 15px;
+}
+
+#about .description h1{
+	margin: 0;
+	padding: 15px;
+}
+
 footer.main{
-	background-color: #048BA8;
+	background-color: #FFFAE3;
 	text-align: center;
 	padding: 20px;
 }
@@ -121,6 +138,23 @@ footer.main{
 
 	#gallery .item:hover{
 		opacity: 0.8;
+	}
+
+	#about img{
+		padding: 25px;
+		width: 70%;
+	}
+
+	#about .profile-pic{
+		float: left;
+		width: 50%;
+		padding: 15px;
+	}
+
+	#about .description{
+		float: right;
+		width: 50%;
+		padding: 15px;
 	}
 
 	nav ul li{

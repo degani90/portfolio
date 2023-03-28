@@ -34,7 +34,9 @@ img{
 	width: 100%;
 }
 
-
+main{
+	min-height: calc(100vh - 156.891px - 83px);
+}
 
 header{
 	background-color: #048BA8;

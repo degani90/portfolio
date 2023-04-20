@@ -20,11 +20,11 @@ a{
 	padding: 0 15px;
 }
 
-.clearfix::after{
+/* .clearfix::after{
 	content: "";
 	clear: both;
 	display: table;
-}
+} */
 
 .active{
 	background-color: #048BA8;
@@ -35,20 +35,24 @@ img{
 }
 
 main{
-	min-height: calc(100vh - 156.891px - 83px);
+	min-height: calc(100vh - 83px);
+	padding-top: 156.891px;
 }
 
 header{
 	background-color: #048BA8;
 	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 header img{
-	width:96px;
+	width:80px;
 }
 
 .logo-container{
-	padding: 12px;
+	padding: 4px;
 }
 
 nav{
@@ -81,6 +85,8 @@ nav ul li a{
 #gallery{
 	padding-top: 15px;
 	padding-bottom: 15px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #gallery img{
@@ -92,8 +98,10 @@ nav ul li a{
 }
 
 #gallery .item{
-	float: left;
+	/* float: left; */
+	/* flex: 0 1 50%; */
 	padding: 15px;
+	/* position: relative; */
 }
 
 #gallery .picture{
@@ -201,12 +209,24 @@ footer.main{
 		padding: 15px;
 	}
 
+	header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	nav{
+		background-color: #048BA8;
+		margin-right: 10%;
+		padding-right: 15px;
+	}
+
 	nav ul li{
 		transition: background .2s;
 	}
 
 	nav ul li:hover{
-		background-color: #048BA8;
+		background-color: #2A2B2E;
 	}
 }
 
